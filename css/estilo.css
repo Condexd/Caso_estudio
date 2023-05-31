@@ -1,0 +1,38 @@
+{
+    margin: 0;
+    padding: 0
+    box-sixing: boder-box;
+}
+
+body{
+    font-family: Helvetica;
+}
+
+.form-login{
+    width: 400px;
+    height: 340px;
+    background: #4e4e4e;
+    margin: auto;
+    margin-top: 180px;
+    box-shadow: 7xp 13xp 37xp #000;
+    padding: 20xp 30px;
+    border-top: 4px solid #017bab;
+    color: white;
+}
+.form-login h5{
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin bottom: 30px;
+    border bottom: 1px;
+    font
+}
+
+.controls{
+    width: 100xp ;
+    border: 1px solid #017bab;
+    margin bottom: 15xp;
+    padding: 11xp 10xp;
+    
+}
+ 
