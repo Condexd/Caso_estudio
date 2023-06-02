@@ -4,13 +4,19 @@
 	box-sizing: border-box;
 	font-family: "Poppins", sans-serif;
   }
-  
+
+ 
   body {
 	display: flex;
 	align-items: flex-start;
-	justify-content: center;
-	height: 100vh;x
+	justify-content: flex-end;
+	height: 100vh;
 	background: linear-gradient( black, purple);
+  }
+
+  #content h1{
+	color: white;
+	
   }
   
   .buscar {
@@ -31,9 +37,10 @@
   }
   
   .btn {
-	width: 55px;
-	height: 55px;
-	line-height: 55px;
+	margin: 4px;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
 	top: 0;
 	right: 0;
 	position: absolute;
@@ -46,10 +53,50 @@
   }
   
   .buscar:hover input {
-	width: 500px;
+	width: 250px;
   }
   
   .buscar input:focus {
-	width: 500px;
+	width: 250px;
   }
+  
+
+button {    
+	width: 140px;
+	height: 40px;
+	line-height: 40px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 50px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: absolute;
+  }
+  
+ button.crear-album {
+	background-color: black;
+    left: 50px; 
+    top: 500px;
+  }
+
+  button.borrar-album {
+    background-color: black;
+    left: 200px;
+    top: 500px;
+  }
+  
+
+  button.agregar-cancion {
+    background-color: black;
+    left: 350px;
+    top: 500px;
+  }
+  
+
+  button:hover {
+    background-color: lightgoldenrodyellow;
+    transform: scale(1.1);
+  }
+  
   
