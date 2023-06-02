@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background: purple;
+    border-radius: 5px;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+nav{
+    float: left;
+}
+nav ul{
+    list-style: none;
+    overflow: hidden;
+}
+nav ul li{
+    font-family: Arial;
+    font-size: 20px;
+    float: left;
+}
+nav ul li a{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li:hover{
+    background: rgb(85, 4, 85);
+}
+body{
+    background: white;
+}
+
+  
