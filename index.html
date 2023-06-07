@@ -6,26 +6,162 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
     <link rel="icon" href="/img/icono.png">
-    <link rel="stylesheet" href="/css/estiloind.css">
+    <link rel="stylesheet" href="/css/estilo.css">
 </head>
 <body>
-    <header>
-      <nav id="navegacion">
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Colección</a></li>
-            <li><a href="#">Cerrar</a></li>
-        </ul>
-        
-      </nav>   
-    </header>
-    <br> 
-    <br><h1> Colección de música</h1> <hr>
-    <br><hr>
-   
-    <footer>
+<style>
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+header {
+  background: purple;
+  border-radius: 5px;
+  z-index: 100;
+  width: 100%;
+  margin: 3px;
+  padding: px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
 
-    </footer>
-    
+nav{
+    margin-right: 10px;
+}
+nav ul{
+    list-style: none;
+    overflow: hidden;
+}
+nav ul li{
+    font-family: Arial;
+    font-size: 20px;
+    float: left;
+}
+nav ul li a{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li:hover{
+    background: rgb(85, 4, 85);
+}
+body{
+    background: white;
+} 
+form {
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+
+form p{
+  color: white;
+}
+
+form input[type="search"]{
+  width: 200px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+form input[type="submit"]{
+  background: purple;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-left: 10px;
+}
+
+h1{
+  color: black;
+  text-align: center; 
+}
+
+hr{
+  color: purple;
+  width: 95%;
+  margin-bottom: 20px;
+}
+
+#Canciones {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.album {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.album:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+.album img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.album span {
+  display: block;
+  margin-top: 5px;
+}
+</style>
+<header>
+  <nav id="navegacion">
+    <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#">Colección</a></li>
+        <li><a href="#">Cerrar</a></li>
+    </ul>
+  </nav>  
+  <form>
+    <p>
+      <input type="search" name="busqueda" placeholder="Buscar">
+      <input type="submit" value="Buscar">
+    </p>
+  </form> 
+</header>
+<main>
+  <h1> Colección de música</h1> 
+  <hr>
+  <div id="Canciones">
+      <div class="album">
+        <img src="/img/album1.jpeg" alt="Portada del álbum 1">
+        <span>x100pre </span>
+      </div>
+      <div class="album">
+        <img src="/img/album 2.jpeg" alt="Portada del álbum 2">
+        <span>X </span>
+      </div>
+      <div class="album">
+        <img src="/img/album3.jpeg" alt="Portada del álbum 3">
+        <span>Views </span>
+      </div>
+      <div class="album">
+        <img src="/img/album4.jpeg" alt="Portada del álbum 4">
+        <span>Am</span>
+      </div>
+      <div class="album">
+        <img src="/img/album5.jpeg" alt="Portada del álbum 5">
+        <span>Night Visions</span>
+      </div>
+      <div class="album">
+        <img src="/img/album6.jpeg" alt="Starboy">
+        <span>Starboy</span>
+      </div>
+  </div>
+</main>    
 </body>
 </html>
