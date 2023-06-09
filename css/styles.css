@@ -1,0 +1,201 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end ;
+    align-items: center;
+    height: 100vh;
+    background: purple;
+    font-family:'Courier New', Courier, monospace;
+  }
+    .btn-neon{
+  
+      position: left;
+      display: inline-block;
+      padding: 10px 12px;
+      color: gold;
+      letter-spacing: 2px;
+      font-size: 9px;
+      text-decoration: none;
+      overflow: hidden;
+      transition: 0.2s;
+      background-color: #a945c7;
+      border: #a945c7;
+      height: 40px;
+      width: 70px;
+      justify-content: flex-start ;
+    }
+  
+    .btn-neon:hover{
+      background: #a945c7;
+      box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7,0 0 80px #a945c7;
+  
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    @keyframes mianimacion {
+        0%{
+            opacity: 1;
+        }
+    
+        20%{
+            opacity: 1;
+        }
+    
+        30%{
+            opacity: 0;
+        }
+        90%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+    
+    @-webkit-keyframes mianimacion{
+        0%{
+            left: 0%;
+        }
+    
+        50%{
+            left: 100%;
+        }
+    
+        100%{
+            left: 0%;
+        }
+    }
+    
+    @-moz-keyframes mianimacion{
+        0%{
+            left: 0%;
+        }
+    
+        50%{
+            left: 100%;
+        }
+    
+        100%{
+            left: 0%;
+        }
+    }
+    
+    
+    
+    .form-box{
+        position: relative;
+        width: 1400px;
+        height: 450px;
+        background: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .container{
+        width: 500px;
+        padding: 20px;
+        background: rgb(223, 171, 230);
+        margin: auto;
+    }
+    .titulo{
+        text-align: center;
+        border: solid rgb(14, 15, 15);
+        border-style: dashed;
+        padding: 15px;
+        color: rgb(19, 19, 15);
+    }
+    .padre{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        color: rgb(11, 19, 19);
+    }
+    .nombre,.apellido,.correo,.contrasena,.confirmacion_contraseña{
+        display: flex;
+        flex-direction: column;
+    }
+    input{
+        padding: 5px;
+    }
+    input:focus{
+        outline: solid rgb(235, 167, 231 )2px;
+    }
+    .cuenta{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    #fondo1{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: url(../IMG/descarga\ \(1\).jfif);
+        animation: mianimacion 24s linear 18s infinite;
+        -webkit-animation: mianimacion 24s linear 18s infinite;
+        -moz-animation: mianimacion 24s linear 18s infinite;
+    }
+    
+    #fondo2{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: url(../IMG/Aesthetic-wallpapers-que-debes-tener-en-tu-móvil.jpg);
+        background-size: cover;
+        animation: mianimacion 24s linear 12s infinite;
+        -webkit-animation: mianimacion 24s linear 12s infinite;
+        -moz-animation: mianimacion 24s linear 12s infinite;
+    }
+    
+    #fondo3{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: url(../IMG/descarga.jfif);
+        background-size: cover;
+        animation: mianimacion 24s linear 6s infinite;
+        -webkit-animation: mianimacion 24s linear 6s infinite;
+        -moz-animation: mianimacion 24s linear 6s infinite;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: flex-end ;
+        align-items: center;
+        height: 100vh;
+        background: purple;
+        font-family:'Courier New', Courier, monospace;
+      }
+        .btn-neon{
+      
+          position: left;
+          display: inline-block;
+          padding: 10px 12px;
+          color: gold;
+          letter-spacing: 2px;
+          font-size: 9px;
+          text-decoration: none;
+          overflow: hidden;
+          transition: 0.2s;
+          background-color: #a945c7;
+          border: #a945c7;
+          height: 40px;
+          width: 70px;
+          justify-content: flex-start ;
+        }
+      
+        .btn-neon:hover{
+          background: #a945c7;
+          box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7,0 0 80px #a945c7;
+      
+        }
